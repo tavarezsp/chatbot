@@ -39,8 +39,8 @@ CREATE TABLE IF NOT EXISTS `property` (
   `type` varchar(10) NOT NULL,
   `name` varchar(255) NOT NULL,
   `value` varchar(255) NOT NULL,
-  `name` varchar(1000)
-  `modder` varchar(4) 
+  `name` varchar(1000) NOT NULL,
+  `modder` varchar(4) NOT NULL,
   KEY `unique` (`unique`)
   ///
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
