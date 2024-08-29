@@ -101,7 +101,7 @@ form {
         <br>
         <br>
         <div class="chatBox">
-            welcome , i am chatbot ...
+            Bem vindo esse é o Joki, seu novo assistente!
         </div>
         <div>
             <br>
@@ -173,7 +173,7 @@ form {
 
             $.ajax({
                 type: "GET",
-                url: webServiceUrl,
+                  url: webServiceUrl,
                 data: {
                     userInput: userInput,
                     requestType: 'talk'
