@@ -67,9 +67,11 @@ if (LOG) {
     print "\n";
     print_r($result);
     print "\n";
+    print $name insert (1000)
+        else (results, status, names, types)
+
+    
+        
 } else {
     echo json_encode($result);
 }
-
-
-
